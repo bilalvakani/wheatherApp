@@ -1,0 +1,95 @@
+/* Weather.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #3498db;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    width: 300px;
+    text-align: center;
+    color: black;
+  }
+  
+  .input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: linear-gradient(to right, #4facfe, #00f2fe);;
+  }
+  
+  input {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    outline: none;
+    font-size: 16px;
+    color: black;
+    background-color: linear-gradient(to right, #4facfe, #00f2fe);;
+
+    
+  }
+  
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  .wheathers {
+    margin-top: 20px;
+  }
+  
+  .cityname {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .tempertaure {
+    font-size: 48px;
+    margin: 10px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .cilmate {
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #ddd;
+    margin-bottom: 20px;
+  }
+  
+  img {
+    max-width: 100px;
+    margin: 10px auto;
+  }
+  
+  .error {
+    color: #ff6666;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .error img {
+    max-width: 80px;
+    margin-top: 10px;
+  }
+  
