@@ -76,6 +76,9 @@ function Wheather() {
                                 <p className='cilmate'>{data.weather[0].description}</p>
                             </div> : ""
                     }
+
+
+                    
                 </div>
 
             </div>
